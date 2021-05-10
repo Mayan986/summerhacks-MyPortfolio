@@ -7,17 +7,125 @@
  -->
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
-<script src="./js/script.js"></script>
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://kit.fontawesome.com/fc8bfde811.js" crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@500&display=swap" rel="stylesheet">
+     <title>My Portfolio</title>
+     <link rel="stylesheet" href="./css/style.css">
+ </head>
+ <body>
+     <header class="navbar">
+         <a href="#" class ="folio">MY PORTFOLIO</a>
+         <ul id="top">
+             <li class="bar"><a href="#">About</a></li>
+             <li class="bar"><a href="#">Education</a></li>
+             <li class="bar"><a href="#">Projects</a></li>
+             <li class="bar"><a href="#">Contact me</a></li>
+         </ul>
+     </header>
+     <div class ="clr">
+     <div class="intro">
+          <div class ="detail">
+             <h3 class="my">HEY,</h3>
+             <h3>I'm MAYAN BOSE</h3>
+         <p class="Quote"><i>"If something's important enough, you should try . Even if-the 
+                 probable outcome is failure."
+                                       -Elon Musk</i>
+           </p>   
+         </div>
+             <div class="img">
+             <img src="myimage.jpg" alt="MAYAN BOSE">
+             </div>
+     </div>
+     
+     <div class="about">
+         <div class="contain">
+         <p class= "ab-hd">About me</p>
+         <div class="des">
+         <p>
+          Learning & Helping should never stop & Experience comes failure ,So be calm and code on.<br>
+          Complete my intermediate from <emp>Kairali School</emp> with good marks . Currently studing in <em>SOA University </em>
+          Coding since class 10, learnt <em>JAVA</em> and <em>Python</em> and <em>Bascis of Sql.</em> 
+          <em>Machine Learnig</em> & <em>AI</em> are my main learning objective and also interested in <em>Web Development</em>.
+          Build few small projects in python like - calendar , phonenumber checker & insta profile downloader.
+          Interested in sports too and represented my team in distric level, Like listening to music and playing mobile games.
+         </p>
+         </div>
+         </div>  
+     </div>
+     
+     <div class="education">
+         <p class="edu">
+             Education & Awards
+          </p>
+         </div>
+         <div class="award_parent">
+          <div class="award">
+          <p class="edu-awrd">
+              Class 10<sup>th</sup> = 88.8%<br>
+              Class 12<sup>th</sup> = 86%<br>
+              Studing in SOA,ITER<br>
+              Rank 1<sup>st</sup> in 8<sup>th</sup> International Math Olympiad<br>
+              Rank 1<sup>st</sup> in 15<sup>th</sup> National Sciene Olympiad<br>
+              Rank 2<sup>nd</sup> in 2<sup>th</sup> G.k Olympiad<br>
+              Semi finalist in ICSE Basketball meet<br>
+          </p>
+         </div>
+         </div>
+      <div class="projct">
+          <p class="prname"><u>Mini-Projects</u></p><br>
+          <div class="pr">     
+         <pre class ="pr1"> 
+ <p class="calendr"> Calendar</p><br>
+         To make Calendar through code
+         
+         
+         import calendar
+ 
+         def displaycalendar(year):
+             print(calendar.calendar(year))
+         year = int(input("Enter the year : "))
+         displaycalendar(year)
+         </pre>  
+         </p>
+            
+         <pre class ="pr2"> 
+ <p class="instadp">Insta Dp Downloader</p><br> 
+         To Download Insta-dp through code
+ 
+ 
+         #pip install instaloader
+ 
+         import instaloader
+         ig = instaloader.Instaloader()
+         dp = input("Enter insta Username :")
+         ig.download_profile(dp,profile_pic_only=True)
+          </pre>
+         </p>
+         </div>
+      </div>
+    </div>
+      <footer class="foot">
+          <div class="contact">
+              <h2><u>Contact</u></h2>
+          </div>
+         <ul id="down">
+             <li class="dwnbx"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+             <li class="dwnbx"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+             <li class="dwnbx"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+             <li class="dwnbx"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+         </ul>
+     </footer> 
+ 
+ </body>
+ <script src="./js/script.js"></script>
+ </html>
